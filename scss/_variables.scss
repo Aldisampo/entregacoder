@@ -1,0 +1,17 @@
+:root {
+    --light-cornflower-blue: #8ecae6ff;
+    --blue-green: #219ebcff;
+    --prussian-blue: #023047ff;
+    --honey-yellow: #ffb703ff;
+    --orange: #fb8500ff;
+}
+.flex-row{
+    display: flex;
+
+}
+.flex-column{
+    display: flex;
+}   
+.container{
+    display: grid;
+}

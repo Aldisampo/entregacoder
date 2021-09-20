@@ -28,7 +28,8 @@ header{
 .navegacion{
     font-size: 1em;
     justify-content: right;
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     gap: 2rem;
     margin-right: 2rem;
     .menu{
@@ -45,7 +46,6 @@ header{
     background-color: #000851;
     padding: 10px;
     color: #ffb703ff;
-    border-radius: 7px;
-
-    
+    border-radius: 7px;  
 }
+

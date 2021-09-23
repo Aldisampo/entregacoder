@@ -1,6 +1,3 @@
-.navbar-main .active {
-  text-decoration: underline wavy var(--honey-yellow); }
-
 header {
   font-family: 'Zen Loop', cursive;
   font-size: 20px; }
@@ -12,7 +9,7 @@ header {
 
 .first-main {
   width: 100%;
-  height: 800px;
+  height: 700px;
   background: url(../public/img/main2.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;

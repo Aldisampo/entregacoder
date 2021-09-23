@@ -1,0 +1,38 @@
+
+main.main-productos{
+    margin: 40 auto;
+    width: 1024px; 
+    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(25, 100px);
+}
+
+.first-div-prod {
+    grid-column: span 10;
+    grid-row: 2 / 5;
+}
+.second-div-prod {
+    grid-column: span 10;
+    grid-row: 6 / 9;
+}
+.three-div-prod {
+    grid-column: span 10;
+    grid-row: 10 / 13;
+}
+.four-div-prod {
+    grid-column: span 10;
+    grid-row: 14 / 17;
+}
+.five-div-prod {
+    grid-column: span 10;
+    grid-row: 18 / 21;
+}
+.six-div-prod {
+    grid-column: span 10;
+    grid-row: 22 / 25;
+}
+.first-prod{
+    margin: auto 0;
+    width: 50%;
+    
+}

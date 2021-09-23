@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
     <!-- Link boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Ramé Botanicos</title>
-    <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Zen+Loop&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body class="body-paginas">
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparente navbar-main">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-main">
             <div class="container">
                 <a class="navbar-brand" href="../index.html">
                 <img src="../public/img/logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
                 </a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Bara de navegación">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Barra de navegación">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mainNav">
@@ -37,9 +37,43 @@
           </nav>    
      </header>
     <main>
+        <section class="conocenos-main">
+            <section class="conteiner sobre-nosotros">
+                <h2 class="titulo-conocenos">NUESTRA HISTORIA</h2>
+                <div class="contendor-sobre-nosotros">
+                    <img src="../public/img/img4.jpg" width="300px" heigth="500px" alt="" class="imagen-conocenos">
+                    <div class="contenido-historia">
+                    <h3>Todo comenzó...</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolores possimus est hic eum suscipit fugit itaque, amet harum sunt. Minus reprehenderit, labore itaque obcaecati commodi autem sunt fugit vel!</p>
+                    </div>
+                </div>
+            </section>
+        </section>
 
     </main>
-    <footer>
+    <footer class="footer bg-white">
+        <section class="container flex-column bg-white">
+            <div class="footer">
+                <a class="link-footer" href="./paginas/armatubox.html">ARMA TU BOX</a>
+                <a class="link-footer" href="./paginas/conocenos.html">CONOCENOS</a>
+                <a class="link-footer" href="./paginas/productos.html">PRODUCTOS</a>
+                <a class="link-footer" href="./paginas/contactanos.html">CONTACTANOS</a>
+            </div>
+            <div class="link-footer">
+               <img src="../public/img/logo.png" width="80" height="80" alt="">
+            </div>
+        </section>
+        <section class="container flex-row pie-pag">
+            <div>
+                <p>2016-2021 | Ramé botanicos ®</p>
+            </div>
+            <div class="iconos">
+                <a href="#"><img src="../public/img/facebook.png" width="40" height="40" alt=""></a>
+                <a href="#"><img src="../public/img/instagram.png" width="40" height="40" alt=""></a>
+            </div>
+
+        </section>
+        
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  

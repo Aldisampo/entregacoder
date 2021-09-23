@@ -1,6 +1,52 @@
+.body-paginas {
+  background-image: url(../public/img/fondo5.png); }
+
 header {
   font-family: 'Zen Loop', cursive;
   font-size: 20px; }
+
+.main {
+  margin-top: 25vh; }
+
+h2 {
+  text-align: center; }
+
+.container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem; }
+
+footer {
+  height: 250px;
+  margin-top: 50px;
+  padding-top: 20px; }
+
+.link-footer {
+  margin-top: 15px;
+  text-decoration: none;
+  color: black;
+  padding: 15px; }
+
+.pie-pag {
+  width: 100%;
+  justify-content: space-between; }
+
+.footer-pages {
+  margin-top: 100px; }
+
+@media (max-width: 540px) {
+  .container {
+    font-size: 13px;
+    justify-content: center;
+    align-content: center; }
+    .container.pie-pag {
+      flex-direction: column; }
+  .link-footer {
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px; } }
 
 * {
   margin: 0;
@@ -9,24 +55,30 @@ header {
 
 .first-main {
   width: 100%;
-  height: 700px;
+  height: 100vh;
   background: url(../public/img/main2.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed; }
 
 .h1 {
+  font-size: 50px;
   display: flex;
-  height: 700px;
-  width: 30%;
+  height: 100vh;
+  width: 100%;
   align-items: center;
-  justify-content: flex-start;
-  text-align: center; }
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: wheat;
+  padding: 20px;
+  color: white; }
 
-.wave {
+.wave-1 {
   position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 :root {
   --light-cornflower-blue: #8ecae6ff;
@@ -51,3 +103,123 @@ header {
 .flex-column {
   display: flex;
   flex-direction: column; }
+
+main.main-productos {
+  margin: 40 auto;
+  width: 1024px;
+  gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(25, 100px); }
+
+.first-div-prod {
+  grid-column: span 10;
+  grid-row: 2 / 5; }
+
+.second-div-prod {
+  grid-column: span 10;
+  grid-row: 6 / 9; }
+
+.three-div-prod {
+  grid-column: span 10;
+  grid-row: 10 / 13; }
+
+.four-div-prod {
+  grid-column: span 10;
+  grid-row: 14 / 17; }
+
+.five-div-prod {
+  grid-column: span 10;
+  grid-row: 18 / 21; }
+
+.six-div-prod {
+  grid-column: span 10;
+  grid-row: 22 / 25; }
+
+.first-prod {
+  margin: auto 0;
+  width: 50%; }
+
+.portafolio {
+  margin: 30px 70px; }
+
+.galeria-port {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.imagen-port {
+  width: 24%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
+
+.imagen-port > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; }
+
+@media (max-width: 400px) {
+  .galeria-port {
+    display: flex;
+    flex-direction: column; }
+  .imagen-port {
+    width: 100%;
+    margin-bottom: 10px; } }
+
+.titulo-conocenos {
+  padding: 10vh 0;
+  text-align: center; }
+
+.contendor-sobre-nosotros {
+  margin: 0 60px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.imagen-conocenos {
+  padding: 1vh;
+  width: 48%; }
+
+.sobre-nosotros .contenido-historia {
+  padding: 10px;
+  text-align: right;
+  margin: auto 0;
+  width: 48vh; }
+
+.contenido-historia h3 {
+  text-align: center; }
+
+@media (max-width: 770px) {
+  .contendor-sobre-nosotros {
+    padding-top: 5px;
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-evenly; } }
+
+@media (max-width: 400px) {
+  .contendor-sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .imagen-conocenos {
+    padding: 0;
+    width: 300px; }
+  .titulo-conocenos {
+    padding: 5vh 0; }
+  .sobre-nosotros .contenido-historia {
+    padding: 10px;
+    text-align: center;
+    width: 100%; } }
+
+.formulario {
+  margin-top: 100px; }
+
+body .contactanos {
+  background-color: black; }
+
+.main-contactanos {
+  width: 100%;
+  height: 1000px; }

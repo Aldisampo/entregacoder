@@ -1,51 +1,8 @@
-body{
-    font-family: 'Imprima', sans-serif;
-    font-size: 62,5%;
-}
-a{
-    text-decoration: none;
-}  
 
-ul{
-    list-style-type: none;
-
+.navbar-main .active{
+    text-decoration: underline wavy var(--honey-yellow);
 }
-h2{
-    text-align: center;
-}
-
 header{
-    height: 20vh;
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-    justify-content: space-between;
-    align-items: center;
-    .logo{
-        max-width: 100px;
-        padding: 1rem;
-        margin-left: 2rem;
-    }
+    font-family: 'Zen Loop', cursive;
+    font-size: 20px;
 }
-.navegacion{
-    font-size: 1em;
-    justify-content: right;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    gap: 2rem;
-    margin-right: 2rem;
-    .menu{
-    display: flex;
-    justify-content: right;
-    }
-    
-}    
-.navegacion li a{
-    padding: 1rem 1rem;
-    color: #8ecae6ff;
-}
-.navegacion li :hover{
-    background-color: #000851;
-    padding: 10px;
-    color: #ffb703ff;
-    border-radius: 7px;  
-}
-

@@ -1,10 +1,11 @@
+@import "./globales";
+@import "./normalizadores";
 @import "./style";
 @import "./variables";
-@import "./normalizadores";
-@import "./globales";
 
-/*PAGES*/
+// /*PAGES*/
+
 @import "./pages/armaTuBox";
+@import "./pages/productos";
 @import "./pages/conocenos";
 @import "./pages/contactanos";
-@import "./pages/productos";

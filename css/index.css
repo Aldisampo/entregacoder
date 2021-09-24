@@ -170,7 +170,7 @@ main.main-productos {
     margin-bottom: 10px; } }
 
 .titulo-conocenos {
-  padding: 10vh 0;
+  padding: 5vh 0;
   text-align: center; }
 
 .contendor-sobre-nosotros {
@@ -180,10 +180,10 @@ main.main-productos {
 
 .imagen-conocenos {
   padding: 1vh;
-  width: 48%; }
+  width: 48%;
+  height: 85vh; }
 
 .sobre-nosotros .contenido-historia {
-  padding: 10px;
   text-align: right;
   margin: auto 0;
   width: 48vh; }
@@ -215,7 +215,7 @@ main.main-productos {
     width: 100%; } }
 
 .formulario {
-  margin-top: 100px; }
+  margin: auto; }
 
 body .contactanos {
   background-color: black; }

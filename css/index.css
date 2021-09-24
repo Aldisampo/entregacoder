@@ -139,6 +139,12 @@ main.main-productos {
   margin: auto 0;
   width: 50%; }
 
+@media (max-width: 770px) {
+  main.main-productos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
 .portafolio {
   margin: 30px 70px; }
 
@@ -169,50 +175,50 @@ main.main-productos {
     width: 100%;
     margin-bottom: 10px; } }
 
-.titulo-conocenos {
-  padding: 5vh 0;
-  text-align: center; }
+.conocenos-main {
+  height: 100vh;
+  padding-top: 70px; }
+  .conocenos-main.titulo-conocenos {
+    padding: 5vh 0;
+    text-align: center; }
 
 .contendor-sobre-nosotros {
-  margin: 0 60px;
+  margin: 70px;
+  padding: 30px auto;
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: center;
+  align-items: center; }
 
 .imagen-conocenos {
-  padding: 1vh;
-  width: 48%;
-  height: 85vh; }
+  width: 60vh;
+  height: 75vh;
+  margin: auto;
+  align-items: center; }
 
-.sobre-nosotros .contenido-historia {
-  text-align: right;
-  margin: auto 0;
-  width: 48vh; }
+.contenido-historia {
+  text-align: center;
+  width: 48%; }
 
-.contenido-historia h3 {
+.imagen-fondo {
+  padding: 100px 25px 150px 850px;
+  background-image: url(../public/img/img3.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh; }
+
+.titulo-banner {
+  color: whitesmoke;
   text-align: center; }
 
-@media (max-width: 770px) {
-  .contendor-sobre-nosotros {
-    padding-top: 5px;
-    margin: 0 60px;
-    display: flex;
-    justify-content: space-evenly; } }
+.texto-banner {
+  color: whitesmoke;
+  text-align: right; }
 
-@media (max-width: 400px) {
-  .contendor-sobre-nosotros {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+@media (max-width: 770px) {
   .imagen-conocenos {
-    padding: 0;
-    width: 300px; }
-  .titulo-conocenos {
-    padding: 5vh 0; }
-  .sobre-nosotros .contenido-historia {
-    padding: 10px;
-    text-align: center;
-    width: 100%; } }
+    width: 35vh;
+    height: 55vh; } }
 
 .formulario {
   margin: auto; }

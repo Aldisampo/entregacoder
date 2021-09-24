@@ -6,7 +6,6 @@ main.main-productos{
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(25, 100px);
 }
-
 .first-div-prod {
     grid-column: span 10;
     grid-row: 2 / 5;
@@ -34,5 +33,13 @@ main.main-productos{
 .first-prod{
     margin: auto 0;
     width: 50%;
-    
+}
+
+@media (max-width:770px){
+
+main.main-productos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 }

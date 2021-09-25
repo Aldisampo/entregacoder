@@ -7,44 +7,153 @@
     }
 }
 .contendor-sobre-nosotros{
-margin: 70px;
-padding: 30px auto;
+padding:0 40px 0 40px ;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .imagen-conocenos{
-    width: 60vh;
-    height: 75vh;
+    height: 70vh;
     margin: auto;
     align-items: center;
 }
 .contenido-historia{
     text-align: center;
-    width: 48%;
+    width: 60%;
 }
+/*----------------------------*/
+
 .imagen-fondo{
-    padding: 100px 25px 150px 850px;
+    margin-top: 70px;
     background-image: url(../public/img/img3.png);    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 .titulo-banner{
-    
     color: whitesmoke;
     text-align: center;
 }
-.texto-banner{
-    color: whitesmoke;
-    text-align: right;
+/*----------------------------*/  
+.conocenos-medio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
+.imagen-fondo-2{
+    background-image: url(../public/img/main-first.jpg);    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 10px;
+    
+}
+
+.titulo-banner{
+    
+    color: #8E8D8D;
+    text-align: center;
+    width: 30%;
+    padding-right: 10px;
+}
+.texto-banner{
+    color: #8E8D8D;
+    text-align: center;
+    width: 30%;
+    padding-right: 10px;
+    
+}
+.texto-banner-2{
+    padding: 30px;
+    color: #8E8D8D;
+    justify-content: flex-start;
+    width: 30%;
+}
+.conocenos-medio{
+    height: 70vh;
+}
+
 @media (max-width:770px){
     .imagen-conocenos{
         width: 35vh;
         height: 55vh;
     }
+    .imagen-fondo{
+        padding: 15px;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+}
+
+@media (max-width:400px){
+    .conocenos-main{
+        height: 100%;
+    }
+    
+    .contendor-sobre-nosotros{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 20px;
+    }
+    .contenido-historia{
+       margin-top: 10px;
+        width: 100%;
+
+    }
+    .imagen-conocenos{
+        width: 45vh;
+        height: 50vh;
+    }
+    .texto-banner{
+        color: whitesmoke;
+        justify-content: left;
+        align-content: left;
+        text-align: center;
+        font-size: 12px;
+        width: 50%;
+
+    }
+    .titulo-banner{
+        
+        color: whitesmoke;
+        text-align: center;
+        width: 50%;
+    }
+    .imagen-fondo{
+        padding: 15px;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+/*------------------------------------*/
+
+.imagen-fondo-2{
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.texto-banner-2{
+
+    color: whitesmoke;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 13px;
+    width: 50%;
+
+}
 }

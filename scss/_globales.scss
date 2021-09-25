@@ -10,7 +10,9 @@ header{
 }
 h2{
     text-align: center;
-
+}
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 .container{
     width: 100%;
@@ -19,7 +21,7 @@ h2{
     margin-top: 1rem;
 }
 footer{
-    height: 250px;
+    height: 260px;
     margin-top: 50px;
     padding-top: 20px;
     
@@ -39,6 +41,30 @@ footer{
 .footer-pages{
     margin-top: 100px;
 }
+.error{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/public/img/404.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h2-titulo{
+    color: #E2C547;
+    font-family: 'Zen Loop', cursive;
+    font-size: 90px;
+}
+.h2-border{
+    margin-top: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    color: #99BFB3;
+}
+
 
 @media (max-width:540px) {
     .container{

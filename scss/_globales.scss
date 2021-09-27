@@ -8,11 +8,22 @@ header{
 .main{
     margin-top: 25vh;
 }
-h2{
+.h2-titulo{
+    color: #E2C547;
+    font-family: 'Zen Loop', cursive;
+    font-size: 90px;
     text-align: center;
+}
+.h2-border{
+    margin-top: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    color: #99BFB3;
 }
 p{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 .container{
     width: 100%;
@@ -20,10 +31,11 @@ p{
     align-items: center;
     margin-top: 1rem;
 }
+/* FOOTER */
 footer{
-    height: 260px;
-    margin-top: 50px;
-    padding-top: 20px;
+    height: 240px;
+ 
+    padding-top: 10px;
     
 }
 .link-footer{
@@ -38,6 +50,7 @@ footer{
     width: 100%;
     justify-content: space-between;
 }
+
 .footer-pages{
     margin-top: 100px;
 }
@@ -51,18 +64,6 @@ footer{
     justify-content: center;
     align-items: center;
     
-}
-.h2-titulo{
-    color: #E2C547;
-    font-family: 'Zen Loop', cursive;
-    font-size: 90px;
-}
-.h2-border{
-    margin-top: 10px;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 10px;
-    color: #99BFB3;
 }
 
 
@@ -79,6 +80,7 @@ footer{
         align-content: center;
         flex-wrap: wrap;
         justify-content: center;
+       font-size: 11px;
         padding: 5px;
 
     }

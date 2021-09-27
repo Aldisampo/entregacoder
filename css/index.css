@@ -8,11 +8,22 @@ header {
 .main {
   margin-top: 25vh; }
 
-h2 {
+.h2-titulo {
+  color: #E2C547;
+  font-family: 'Zen Loop', cursive;
+  font-size: 90px;
   text-align: center; }
 
+.h2-border {
+  margin-top: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  color: #99BFB3; }
+
 p {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
 
 .container {
   width: 100%;
@@ -20,10 +31,10 @@ p {
   align-items: center;
   margin-top: 1rem; }
 
+/* FOOTER */
 footer {
-  height: 260px;
-  margin-top: 50px;
-  padding-top: 20px; }
+  height: 240px;
+  padding-top: 10px; }
 
 .link-footer {
   margin-top: 15px;
@@ -48,18 +59,6 @@ footer {
   justify-content: center;
   align-items: center; }
 
-.h2-titulo {
-  color: #E2C547;
-  font-family: 'Zen Loop', cursive;
-  font-size: 90px; }
-
-.h2-border {
-  margin-top: 10px;
-  padding: 10px;
-  border-style: solid;
-  border-radius: 10px;
-  color: #99BFB3; }
-
 @media (max-width: 540px) {
   .container {
     font-size: 13px;
@@ -71,6 +70,7 @@ footer {
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: 11px;
     padding: 5px; } }
 
 * {
@@ -105,6 +105,10 @@ footer {
   width: 100%;
   overflow: hidden; }
 
+@media (max-width: 400px) {
+  .h1 {
+    font-size: 30px; } }
+
 :root {
   --light-cornflower-blue: #8ecae6ff;
   --blue-green: #219ebcff;
@@ -129,17 +133,17 @@ footer {
   display: flex;
   flex-direction: column; }
 
-.contenedor-productos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center; }
-
 main.main-productos {
   margin-top: 40px;
   gap: 20px;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(25, 100px); }
+
+.contenedor-productos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center; }
 
 .first-div-prod {
   grid-column: span 10;
@@ -166,8 +170,7 @@ main.main-productos {
   grid-row: 22 / 25; }
 
 .first-prod {
-  text-align: center;
-  width: 40%; }
+  text-align: center; }
 
 .botanicos-order {
   padding: 30px;
@@ -175,13 +178,16 @@ main.main-productos {
   justify-content: center;
   align-items: center; }
 
+.first-prod-2 {
+  padding: 10px;
+  text-align: center;
+  width: 40%; }
+
 @media (max-width: 770px) {
   .botanicos-order {
     padding-left: 0px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: column; }
   .first-prod-2 {
     padding: 10px;
     text-align: center;
@@ -191,12 +197,13 @@ main.main-productos {
   .botanicos-order {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    padding-left: 30px; }
   .first-prod {
     justify-content: center;
     align-content: center;
-    width: 100%; } }
+    width: 375px; }
+  .first-prod img {
+    width: 375px; } }
 
 .portafolio {
   margin: 30px 70px; }
@@ -312,7 +319,9 @@ main.main-productos {
   .imagen-fondo {
     padding: 15px;
     justify-content: center;
-    align-items: flex-start; } }
+    align-items: flex-start; }
+  .h2-titulo {
+    font-size: 50px; } }
 
 @media (max-width: 400px) {
   .conocenos-main {

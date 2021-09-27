@@ -1,15 +1,15 @@
+main.main-productos{
+    margin-top: 40px;
+    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(25, 100px);
+}
 .contenedor-productos{
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
  
-}
-main.main-productos{
-    margin-top: 40px;
-    gap: 20px;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(25, 100px);
 }
 .first-div-prod {
     grid-column: span 10;
@@ -42,7 +42,7 @@ main.main-productos{
 }
 .first-prod{
     text-align: center;
-    width: 40%;
+
 }
 .botanicos-order{
     padding: 30px;
@@ -50,14 +50,17 @@ main.main-productos{
     justify-content: center;
     align-items: center;
 }
+.first-prod-2{
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+}
 
 @media (max-width:770px){
 .botanicos-order{
     padding-left: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .first-prod-2{
     padding: 10px;
@@ -69,13 +72,16 @@ main.main-productos{
     .botanicos-order{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding-left: 30px;
     }
     .first-prod{
+        
         justify-content: center;
         align-content: center;
-        width: 100%;
+        width: 375px;
 
+    }
+    .first-prod img{
+        width: 375px;
     }
 }
